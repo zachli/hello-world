@@ -1,6 +1,6 @@
 {
     "name": "zachli/helloworld",
-    "homepage": "https://github.com/zachli/hello-world",
+    "homepage": "https://github.com/zachli/helloworld",
     "type": "library",
     "require": {
         "php": ">=5.3.0"
