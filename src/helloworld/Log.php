@@ -1,6 +1,6 @@
 <?php
 
-namespace Log;
+namespace Helloworld;
 
 class Log {
     function __construct() {
