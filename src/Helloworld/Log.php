@@ -3,11 +3,11 @@
 namespace Helloworld;
 
 class Log {
-    function __construct() {
+    public function __construct() {
         
     }
     
-    function writeLog($data = []) {
+    public function writeLog($data = []) {
         echo $data;
     }
 }
