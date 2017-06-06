@@ -3,11 +3,17 @@
 namespace Helloworld;
 
 class Log {
+    protected $message;
+    
     public function __construct() {
         
     }
     
-    public function writeLog($data = []) {
-        echo $data;
+    public function getMessage() {
+        return $this->message;
+    }
+    
+    public function setMessage($message) {
+        $this->message = $message;
     }
 }
